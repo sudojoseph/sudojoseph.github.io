@@ -14,3 +14,39 @@ body header h1 {
   padding-top: 54px;
   font-size: 60px;
 }
+body .content {
+  width: 100%;
+  margin-top: 60px;
+  font-family: arial black;
+}
+body .content .tile-wrapper {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+body .content .tile-wrapper .tile {
+  width: 225px;
+  height: 225px;
+  background: #f1f1f1;
+  box-shadow: 0 0 10px 0px black;
+  margin: 50px 25px;
+  transition: all 2s;
+}
+body .content .tile-wrapper .tile i {
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  margin-top: 30%;
+  color: #cecece;
+}
+body .content .tile-wrapper .tile p {
+  text-align: center;
+  color: #cecece;
+}
+body .content .tile-wrapper .tile:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
